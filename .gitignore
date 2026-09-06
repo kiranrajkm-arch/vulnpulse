@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Real CrowdStrike exports — never commit real data
+/raw_exports_by_tag/
+/vulnpulse_reports/
+*.xlsx.lock
+~$*.xlsx
