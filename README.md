@@ -1,14 +1,13 @@
 # VulnPulse
 
-**Automated executive vulnerability management reporting for CrowdStrike Falcon, across multiple projects/teams, with zero manual Excel work.**
 
-Built to solve a real workflow problem: producing a monthly leadership-ready vulnerability report across 10 CrowdStrike-tracked projects, where the data was too large to export as a single file and had to be pulled per-project instead.
+Built to solve a real workflow problem: producing a monthly leadership-ready vulnerability report across security tool reports.
 
 ![Exec Summary](docs/screenshots/exec_summary.png)
 
 ## The problem
 
-Manually building a vulnerability posture report every month — for one project — usually means: exporting from the console, pasting into Excel, manually diffing against last month's numbers, building pivot tables, and re-formatting charts. Across 10 projects, that's not a monthly task anymore, it's most of a week.
+Manually building a vulnerability posture report every month — for one project — usually means: exporting from the console, pasting into Excel, manually diffing against last month's numbers, building pivot tables, and re-formatting charts.
 
 Worse, most manual versions of this get the metrics subtly wrong:
 - "New" and "Remediated" get estimated from comparing two point-in-time snapshots, which hides findings that opened *and* closed within the same window
